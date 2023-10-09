@@ -1,0 +1,13 @@
+{
+    "name":"My Terminal Extension",
+    "version": "1.0",
+    "manifest_version":2,
+    "description": "这是一个起始页",
+    "author": "beandd",
+    "browser_action":{
+        "default_popup":"index.html"
+    },
+    "chrome_url_overrides": {
+        "newtab": "/index.html"
+    }
+}
